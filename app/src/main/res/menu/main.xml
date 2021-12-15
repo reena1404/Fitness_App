@@ -11,7 +11,7 @@
         android:orderInCategory="101"
         />
     <item
-        android:title="rate Us"
+        android:title="Rate Us"
         android:id="@+id/rate"
         android:orderInCategory="102"
         />

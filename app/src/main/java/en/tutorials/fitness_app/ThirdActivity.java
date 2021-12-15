@@ -60,27 +60,6 @@ public class ThirdActivity extends AppCompatActivity {
             case 8:
                 setContentView(R.layout.activity_pauseji);
                 break;
-            case 9:
-                setContentView(R.layout.activity_plank);
-                break;
-            case 10:
-                setContentView(R.layout.activity_crunches);
-                break;
-            case 11:
-                setContentView(R.layout.activity_situp);
-                break;
-            case 12:
-                setContentView(R.layout.activity_rotation);
-                break;
-            case 13:
-                setContentView(R.layout.activity_twist);
-                break;
-            case 14:
-                setContentView(R.layout.activity_windmill);
-                break;
-            case 15:
-                setContentView(R.layout.activity_legup);
-                break;
 
         }
 

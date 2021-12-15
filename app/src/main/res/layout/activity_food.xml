@@ -54,11 +54,13 @@
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/linear"
+        android:background="#A39696"
         >
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/list">
+
 
         </ListView>
 

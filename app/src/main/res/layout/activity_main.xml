@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
-android:background="#22f1eaea"
+android:background="#e5e5dc"
 android:orientation="vertical"
 tools:context=".MainActivity">
 
@@ -12,10 +12,10 @@ tools:context=".MainActivity">
     android:id="@+id/toolBar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@color/design_default_color_primary_dark"
+    android:background="#4F0568"
     android:textAlignment="textEnd"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    app:title="Let's Do Some YOGA!!!"
+    app:title="Let's Do Some WORKOUT!!!"
     app:titleTextColor="#fff"
     android:gravity="end"/>
 
@@ -68,7 +68,7 @@ tools:context=".MainActivity">
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Below Age 18"
-                        android:textColor="#ff000000"
+                        android:textColor="#2235AC"
                         android:textSize="20.0dp"
                         android:textStyle="bold"
                         />
@@ -77,6 +77,7 @@ tools:context=".MainActivity">
                         android:layout_height="wrap_content"
                         android:fontFamily="serif"
                         android:padding="5.0dp"
+                        android:textColor="#00BCD4"
                         android:text="Days 60"
                         android:textSize="20.0dp"
                         android:textStyle="bold"
@@ -87,7 +88,7 @@ tools:context=".MainActivity">
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:text="Every Day 15 Min"
-                        android:textColor="#ffff5722"
+                        android:textColor="#03A9F4"
                         android:textStyle="bold"/>
 
 
@@ -183,7 +184,7 @@ tools:context=".MainActivity">
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Above Age 18"
-                        android:textColor="#ff000000"
+                        android:textColor="#2235AC"
                         android:textSize="20.0dp"
                         android:textStyle="bold"
                         />
@@ -193,6 +194,7 @@ tools:context=".MainActivity">
                         android:fontFamily="serif"
                         android:padding="5.0dp"
                         android:text="Days 60"
+                        android:textColor="#00BCD4"
                         android:textSize="20.0dp"
                         android:textStyle="bold"
                         />
@@ -202,7 +204,7 @@ tools:context=".MainActivity">
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:text="Every Day 15 Min"
-                        android:textColor="#ffff5722"
+                        android:textColor="#03A9F4"
                         android:textStyle="bold"/>
 
 
@@ -264,7 +266,113 @@ tools:context=".MainActivity">
 
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
 
+            <LinearLayout
+                android:onClick="WorkoutVideo"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Your Workout Video is here!"
+                        android:textColor="#2235AC"
+                        android:textSize="20.0dp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Get some Motivation !"
+                        android:textColor="#00BCD4"
+                        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0"
+
+                    >
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/workout"
+                        />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/workout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:background="@drawable/btn"
+                android:text="Get Started"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                />
+
+
+
+
+
+
+        </LinearLayout>
         <LinearLayout
             android:onClick="food"
             android:layout_width="fill_parent"
@@ -295,8 +403,8 @@ tools:context=".MainActivity">
                         android:layout_height="wrap_content"
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
-                        android:text="Nutrition or Tips"
-                        android:textColor="#ff000000"
+                        android:text="Nutrition Tips"
+                        android:textColor="#2235AC"
                         android:textSize="20.0dp"
                         android:textStyle="bold"/>
 
@@ -305,6 +413,7 @@ tools:context=".MainActivity">
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:text="Suggestion for free"
+                        android:textColor="#00BCD4"
                         android:textStyle="bold"/>
 
 
@@ -364,18 +473,97 @@ tools:context=".MainActivity">
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:onClick="bmi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
             android:orientation="vertical"
             >
-            <FrameLayout
-                android:id="@+id/fl_Adplaceholder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Calculate Your BMI"
+                        android:textColor="#2235AC"
+                        android:textSize="20.0dp"
+                        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bmifinall" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
 
 
         </LinearLayout>
+
 
 
 
