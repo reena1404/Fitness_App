@@ -36,25 +36,25 @@ public class ThirdActivity2 extends AppCompatActivity {
         switch (intvalue) {
 
             case 1:
-                setContentView(R.layout.activity_plank2);
+                setContentView(R.layout.activity_plank);
                 break;
             case 2:
-                setContentView(R.layout.activity_crunches2);
+                setContentView(R.layout.activity_crunches);
                 break;
             case 3:
-                setContentView(R.layout.activity_situp2);
+                setContentView(R.layout.activity_situp);
                 break;
             case 4:
-                setContentView(R.layout.activity_rotation2);
+                setContentView(R.layout.activity_rotation);
                 break;
             case 5:
-                setContentView(R.layout.activity_twist2);
+                setContentView(R.layout.activity_twist);
                 break;
             case 6:
-                setContentView(R.layout.activity_windmill2);
+                setContentView(R.layout.activity_windmill);
                 break;
             case 7:
-                setContentView(R.layout.activity_legup2);
+                setContentView(R.layout.activity_legup);
                 break;
 
         }
